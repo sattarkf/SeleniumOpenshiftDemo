@@ -20,7 +20,7 @@ services:
       NODE_MAX_INSTANCES: 4
 
   selenium:
-    image: selenium-test-chrome:version1
+    image: kfsattar/selenium-test-chrome:version1
     links:
       - hub
       - chrome
